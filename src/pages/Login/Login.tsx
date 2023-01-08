@@ -15,8 +15,8 @@ const Login = () => {
 
   return (
     <>
-      <div className="w-screen h-screen flex justify-center items-center">
-        <div className="flex flex-col w-1/4">
+      <div className="w-screen h-screen flex justify-center items-center p-4">
+        <div className="flex flex-col w-full md:w-1/4">
           <h1 className="text-center text-white font-bold mb-4">
             Ultra Secret Project
           </h1>
@@ -56,19 +56,19 @@ const Login = () => {
                 <clipPath id="b">
                   <use xlinkHref="#a" overflow="visible" />
                 </clipPath>
-                <path clip-path="url(#b)" fill="#FBBC05" d="M0 37V11l17 13z" />
+                <path clipPath="url(#b)" fill="#FBBC05" d="M0 37V11l17 13z" />
                 <path
-                  clip-path="url(#b)"
+                  clipPath="url(#b)"
                   fill="#EA4335"
                   d="M0 11l17 13 7-6.1L48 14V0H0z"
                 />
                 <path
-                  clip-path="url(#b)"
+                  clipPath="url(#b)"
                   fill="#34A853"
                   d="M0 37l30-23 7.9 1L48 0v48H0z"
                 />
                 <path
-                  clip-path="url(#b)"
+                  clipPath="url(#b)"
                   fill="#4285F4"
                   d="M48 48L17 24l-4-3 35-10z"
                 />
@@ -90,19 +90,19 @@ const Login = () => {
                 <clipPath id="b">
                   <use xlinkHref="#a" overflow="visible" />
                 </clipPath>
-                <path clip-path="url(#b)" fill="#FBBC05" d="M0 37V11l17 13z" />
+                <path clipPath="url(#b)" fill="#FBBC05" d="M0 37V11l17 13z" />
                 <path
-                  clip-path="url(#b)"
+                  clipPath="url(#b)"
                   fill="#EA4335"
                   d="M0 11l17 13 7-6.1L48 14V0H0z"
                 />
                 <path
-                  clip-path="url(#b)"
+                  clipPath="url(#b)"
                   fill="#34A853"
                   d="M0 37l30-23 7.9 1L48 0v48H0z"
                 />
                 <path
-                  clip-path="url(#b)"
+                  clipPath="url(#b)"
                   fill="#4285F4"
                   d="M48 48L17 24l-4-3 35-10z"
                 />
@@ -124,19 +124,19 @@ const Login = () => {
                 <clipPath id="b">
                   <use xlinkHref="#a" overflow="visible" />
                 </clipPath>
-                <path clip-path="url(#b)" fill="#FBBC05" d="M0 37V11l17 13z" />
+                <path clipPath="url(#b)" fill="#FBBC05" d="M0 37V11l17 13z" />
                 <path
-                  clip-path="url(#b)"
+                  clipPath="url(#b)"
                   fill="#EA4335"
                   d="M0 11l17 13 7-6.1L48 14V0H0z"
                 />
                 <path
-                  clip-path="url(#b)"
+                  clipPath="url(#b)"
                   fill="#34A853"
                   d="M0 37l30-23 7.9 1L48 0v48H0z"
                 />
                 <path
-                  clip-path="url(#b)"
+                  clipPath="url(#b)"
                   fill="#4285F4"
                   d="M48 48L17 24l-4-3 35-10z"
                 />
