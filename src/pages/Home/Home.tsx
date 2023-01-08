@@ -1,4 +1,4 @@
-function Home() {
+const Home = () => {
   return (
     <div className="w-screen h-screen flex justify-center items-center">
       <div className="w-1/3">
@@ -13,6 +13,6 @@ function Home() {
       </div>
     </div>
   );
-}
+};
 
 export default Home;
