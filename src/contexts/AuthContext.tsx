@@ -23,6 +23,8 @@ const initialValue: IAuthContext = {
 const AuthContext = createContext<IAuthContext>(initialValue);
 
 const AuthProvider = ({ children }: AuthProviderProps) => {
+  //TO-DO
+  // Prevent authenticated initial value start false
   const [authenticated, setAuthenticated] = useState(
     initialValue.authenticated
   );
@@ -51,8 +53,8 @@ const AuthProvider = ({ children }: AuthProviderProps) => {
     //Realizar requisição de login
 
     const response = {
-      accessToken: "",
-      refreshToken: "",
+      accessToken: "asd",
+      refreshToken: "asd",
     };
 
     const { accessToken, refreshToken } = response;

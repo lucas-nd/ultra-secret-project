@@ -11,7 +11,7 @@ const Login = () => {
     navigate("/");
   };
 
-  if (!!authenticated) return <Navigate to="/" replace />;
+  if (authenticated) return <Navigate to="/" replace />;
 
   return (
     <>
